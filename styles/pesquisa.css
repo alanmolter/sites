@@ -1,0 +1,51 @@
+fieldset{
+    border: 3px solid;
+    border-radius: 5px;
+    background-color: lightblue;
+    width: 50%;
+    margin-left: 25%;
+}
+
+fieldset>legend{
+    font-weight: bold;
+    font-size: 20px;
+    color: black;
+}
+
+.btn{
+    background-color:lightcoral;
+    width: 150px;
+    height: 30px;
+}
+
+.espec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+h4{
+    text-decoration:underline;
+}
+
+.check{
+    background-color:rgb(233, 72, 72);
+    width: 30%;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.enviar{
+    margin-left:40%;
+    margin-top: 50px;;
+}
+
+
+#file{
+    margin-bottom: 25px;
+}

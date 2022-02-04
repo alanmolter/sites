@@ -1,0 +1,39 @@
+.fale{
+    background-color: aquamarine;
+    height: 100%;
+    width: 30%;
+    padding-left: 10px;
+    border: solid green;
+    
+
+}
+
+.podcasts{
+    width: 40%;
+    margin-left: 40%;
+    margin-bottom: 30%;
+    margin-top: -40%;
+    box-shadow: inset 0 0 1em rgb(75, 177, 106);
+}
+
+#pods{
+    
+    border: 3px double;
+    border-radius: 8px;
+    background-image: linear-gradient(180deg, rgb(91, 72, 197), rgb(75, 177, 106));
+
+}
+
+#enviar__fale{
+    margin-top:50px;
+    margin-bottom:40px;
+    margin-left: 30%;
+    width: 200px;
+}
+
+h3{
+    background-image: linear-gradient(45deg, #b63299, blue,#f80707);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}

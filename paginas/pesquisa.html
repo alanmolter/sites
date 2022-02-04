@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="../styles/estilos.css" rel="stylesheet">
+    <link href="../styles/pesquisa.css" rel="stylesheet">
+    <title>Pesquisa-Covid-info</title>
+</head>
+
+<body>
+    <main>
+
+        <div class="page-header">
+            <img src="../midia/prevention.png" class="logo">
+            <h1>Covid Info</h1>
+        </div>
+
+
+        <nav>
+            <img src="../midia/prevention.png" class="logo">
+
+            <hr class="barra">
+
+            <button class="custom-btn btn1">Inscreva-se</button>
+
+            <button class="custom-btn btn-5"><span><a href="./index.html">Home</a></span></button>
+            <button class="custom-btn btn-5"><span><a href="prevencao.html">Prevenção</a></span></button>
+            <button class="custom-btn btn-5"><span><a href="cuidados.html">Cuidados</a></span></button>
+            <button class="custom-btn btn-5"><span><a href="Fake.html">Dicas</a></span></button>
+            <button class="custom-btn btn-5"><span><a href="dados.html">Dados úteis</a></span></button>
+            <button class="custom-btn btn-5"><span><a href="quizz.html">Quizz</a></span></button>
+            <button class="custom-btn btn-5"><span><a href="pesquisa.html">Pesquisa</a></span></button>
+            <button class="custom-btn btn-5"><span><a href="fale.html">Fale conosco</a></span></button>
+
+
+            <img src="../midia/lupaicon.jpg" id="lupa"> <input type="text" placeholder="Buscar" id="buscar">
+
+        </nav>
+
+
+        <h1 id="titulo">Participe da nossa pesquisa</h1>
+
+        <form>
+            <fieldset>
+                <br>
+                <legend>Formulário de participação</legend>
+
+                <h4>Dados: </h4>
+
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome" required size="40" maxlength="40"> <br> <br>
+
+                <label for="cidade">Cidade:</label>
+                <input type="text" name="cidade" id="cidade" placeholder="cidade" autocomplete="on" required size="40"
+                    maxlength="40"> <br> <br>
+
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" placeholder="idade" min="1" max="90" required><br> <br>
+
+                <label for="formacao">Formação: <select>
+                        <option value="au">Fundamental completo</option>
+                        <option value="au">Medio completo</option>
+                        <option value="au">Superior Completo</option>
+                        <option value="au">Pós-graduação</option>
+                        <option value="au">PHD</option>
+                        <option value="au">Estudante</option>
+                        <option value="au">Mestrado</option>
+                    </select> </label> <br> <br>
+
+                <label for="email">E-mail: <input type="email" placeholder="e-mail" id="email"  size="40"
+                        maxlength="40"></label> <br> <br>
+
+
+                <hr>
+
+                <h4>Sexo: </h4>
+
+                <label for="sexo">Masculino<input type="radio" name="sexo" id="sexo"></label>
+                <label for="sexo">Feminino<input type="radio" name="sexo" id="sexo"></label>
+                <label for="sexo">Outros<input type="radio" name="sexo" id="sexo"></label> <br> <br>
+
+                <hr>
+
+                <h4>Data de inicio dos sintomas: </h4>
+                <input type="date"><br><br>
+                
+               
+
+                <h4>Utiliza algum medicamento ? </h4>
+                <div class="espec check ">
+
+                    <label for="espec" name="espec">AntiHipertensivo <input type="checkbox"></label>
+                    <label for="espec" name="espec">AntiDiabético <input type="checkbox"></label>
+                    <label for="espec" name="espec">Corticóide <input type="checkbox"></label>
+                    <label for="espec" name="espec">Antibiótico<input type="checkbox"></label>
+                    <label for="espec" name="espec">Ansiolítico<input type="checkbox"></label>
+
+                </div>
+                <hr>
+
+                <h4>Descreva medidas tomadas durante a infecção: </h4>
+                <textarea rows="10" cols="60" name="texto" id="texto"
+                    placeholder="escreva aqui,  medicamentos , isolamento social , etc.." class="descricao"></textarea>
+                <hr><br>
+
+                <label for="uf">UF: </label>
+
+                <select name="uf" id="uf">
+
+                    <option>RJ</option>
+                    <option>SP</option>
+                    <option>RS</option>
+
+                </select><br><br><hr>
+
+                <h4>Anexar arquivo: </h4>
+                <input type="file" id="file" >
+                <hr>
+
+
+                <input type="submit" class="btn enviar " value="Enviar">
+
+            </fieldset>
+
+            <br>
+
+
+            <img src="../midia/profssional1.gif">
+
+            <img src="../midia/vacina2.gif" id="vac1">
+
+
+
+        </form>
+
+
+
+
+        <img src="../midia/prevention.png" class="logo logo__rodape">
+
+        <footer class="rodape">
+
+            <h4>COVID INFO - Alan Molter - 2022</h4>
+
+
+
+
+            <div class="rodape__lista">
+
+                <ul class="link__rodape">
+                    <li><a href="#" style="text-decoration: none;">Quem somos |</a></li>
+                    <br>
+                    <li><a href="#" style="text-decoration: none;">Fale conosco |</a></li>
+                    <br>
+                    <li><a href="#" style="text-decoration: none;">Onde estamos |</a></li>
+
+                </ul>
+
+            </div>
+
+
+
+            <div class="rodape__texto">
+
+
+                <p>Somos uma empresa de tecnologia da informação, com o objetivo de forneçer as noticias mais
+                    atualizadas dos mais diversos campos da area
+                    da saúde, no país e no mundo.
+                </p>
+                <hr>
+                <br>
+
+                <span>
+                    <h4>Inscreva-se</h4>
+                </span>
+                <input type="submit" value="Enviar"><input type="email" placeholder="e-mail">
+            </div>
+
+            <div id="icons">
+                <img src="../midia/faceicon.jpg"> <span>|</span>
+                <img src="../midia/twittericon.jpg"> <span>|</span>
+                <img src="../midia/youicon.jpg"> <span>|</span>
+                <img src="../midia/instaicon.jpg">
+            </div>
+
+
+        </footer>
+
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1298.4603900185639!2d-43.38646119555476!3d-23.00172159873637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.
+        1!3m3!1m2!1s0x9bdba24dfaea13%3A0xfcdc744847c846c4!
+        2sRio%20Design%20Barra!5e0!3m2!1spt-BR!2sbr!4v1643336112281!5m2!1spt-BR!2sbr" width="300" height="250"
+                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+
+
+
+
+
+
+</body>
+
+</html>

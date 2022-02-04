@@ -1,0 +1,57 @@
+
+.sintomas{
+    text-align: left;
+    margin-bottom: 250px;
+
+}
+
+
+#sint{
+    width: 50%;
+    height: 500px;
+    margin-left: 400px;
+    margin-top: -20px;
+    
+}
+
+#lista-sint{
+    margin-top: -500px;
+}
+
+#mapa{
+    margin-bottom: 50px;
+}
+
+#grafc{
+
+    width: 700px;
+    height: 700px;
+    margin-left: 150px;
+
+}
+
+#brasil{
+    height: 700px;
+    width: 600px;
+    margin-left: 150px;
+    margin-bottom: 80px;
+
+}
+
+.table1{
+    background-color: rgb(119, 187, 192);
+    margin-bottom: 50px;
+}
+
+.table2{
+    background-color: rgb(117, 196, 141);
+    margin-bottom: 50px;
+}
+
+span{
+    font-weight: bold;
+}
+
+#dados__mundo {
+    margin-bottom: 100px;
+}

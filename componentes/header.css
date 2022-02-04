@@ -1,0 +1,51 @@
+@import url(base.css);
+
+
+.page-header {
+    display: flex;
+    justify-content:center;
+    background-color: lightblue;
+    margin-top: -30px;
+    width: 100%;
+}
+
+
+.logo {
+    width: 100px;
+    margin-left: 50px;
+    
+}
+
+.barra{
+    margin-left: 30px;
+}
+
+nav{
+    background-color: rgba(173, 216, 230, 0.658);
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+    
+}
+
+#buscar {
+    
+    margin-right: 30px;
+    margin-top: 80px;
+    height: 20px;
+    width: 110px;
+}
+
+
+#lupa {
+    margin-top: 80px;
+    height: 27px;
+    width: 30px;
+}
+
+
+
+
+
